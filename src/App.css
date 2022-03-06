@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+#form-default {
+  width: 40vw;
+  height: 100vh;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  transition: transform .3s
+              cubic-bezier(0, .52, 0, 1);
+  overflow: auto;
+  z-index: 1000;
+  }
